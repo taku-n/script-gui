@@ -8,9 +8,9 @@ void create_text(const string NAME,
 		const int Y,
 		const string TEXT)
 {
+	int nwin;
 	datetime time;
 	double price;
-	int nwin;
 
 	ChartXYToTimePrice(0, X, Y, nwin, time, price);
 
